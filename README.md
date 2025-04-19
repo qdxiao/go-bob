@@ -6,6 +6,7 @@
 [![Bob Version](https://img.shields.io/badge/Bob-≥0.5.0-green.svg)](https://github.com/ripperhe/Bob)
 [![Qwen API](https://img.shields.io/badge/Qwen-API-blue.svg)](https://help.aliyun.com/document_detail/611472.html)
 [![English](https://img.shields.io/badge/English-README-en.md-blue.svg)](README-en.md)
+[![Metrics](https://img.shields.io/badge/Metrics-middleware-blue.svg)](https://github.com/qdxiao/metrics-middleware)
 
 基于通义千问大模型，为 Go 开发者提供的智能开发工具集。本项目包含两个 Bob 插件，旨在提升 Go 开发效率和代码质量。
 
@@ -94,6 +95,44 @@
 ## 📄 许可证
 
 [MIT License](LICENSE)
+
+## 🚀 重磅预告：gfast 微服务开发框架
+
+我们正在开发一个全新的 Go 微服务开发框架 gfast，它将具有以下特点：
+
+### 核心特性
+- 🚀 高性能：基于 Go 语言原生特性，提供极致的性能表现
+- 🏗️ 模块化：采用模块化设计，支持按需加载
+- 🔌 插件化：支持自定义插件，灵活扩展功能
+- 📦 开箱即用：提供丰富的内置组件和工具
+
+### 技术栈
+- 服务治理：基于 gRPC 和 HTTP/2
+- 服务发现：支持多种服务发现机制
+- 配置中心：统一的配置管理
+- 链路追踪：完整的分布式追踪支持
+- 监控告警：内置监控和告警系统
+
+### 开发体验
+- 🛠️ 脚手架工具：快速创建项目结构
+- 📝 代码生成：自动生成基础代码
+- 🔍 调试工具：强大的调试支持
+- 📚 完整文档：详细的开发文档和示例
+
+### 预计发布时间
+- 2024 年 Q3 发布首个预览版本
+- 2024 年 Q4 发布正式版本
+
+## 📊 相关项目
+
+### metrics-middleware
+我们已发布的监控指标中间件，支持 Gin HTTP 服务器和 gRPC 服务器/客户端的指标监控：
+- 提供完整的监控链路
+- 支持服务端、客户端和数据库层面的指标采集
+- 集成 Grafana 监控面板
+- 支持自定义指标
+
+了解更多：[metrics-middleware](https://github.com/qdxiao/metrics-middleware)
 
 ---
 
