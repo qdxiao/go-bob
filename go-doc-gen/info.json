@@ -1,0 +1,21 @@
+{
+    "identifier": "com.bobplugin.go-doc-gen",
+    "version": "0.1.0",
+    "category": "translate",
+    "name": "Go 函数文档生成器",
+    "summary": "基于通义千问的 Go 函数文档生成插件，支持生成符合 Go 文档规范的函数说明",
+    "icon": "",
+    "author": "Your Name",
+    "homepage": "",
+    "appcast": "",
+    "minBobVersion": "0.5.0",
+    "options": [
+        {
+            "identifier": "apiKey",
+            "type": "text",
+            "title": "通义千问 API Key",
+            "defaultValue": "",
+            "description": "请访问 https://help.aliyun.com/document_detail/611472.html 获取 API Key"
+        }
+    ]
+}

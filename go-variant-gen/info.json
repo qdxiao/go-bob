@@ -1,0 +1,21 @@
+{
+    "identifier": "com.bobplugin.ali-doc-translate",
+    "version": "0.1.0",
+    "category": "translate",
+    "name": "Go变量名生成器",
+    "summary": "基于通义千问的 Go 语言变量名生成插件，支持生成符合 Uber Go 语言规范的变量名",
+    "icon": "",
+    "author": "Your Name",
+    "homepage": "",
+    "appcast": "",
+    "minBobVersion": "0.5.0",
+    "options": [
+        {
+            "identifier": "apiKey",
+            "type": "text",
+            "title": "通义千问 API Key",
+            "defaultValue": "",
+            "description": "请访问 https://help.aliyun.com/document_detail/611472.html 获取 API Key"
+        }
+    ]
+}
